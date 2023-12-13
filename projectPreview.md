@@ -94,6 +94,6 @@ form.addEventListener('submit',function(e){
 
 })
 
-// console.log(form);
+// console.log(form)
 
 ```
