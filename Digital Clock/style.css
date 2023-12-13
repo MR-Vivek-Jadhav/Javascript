@@ -1,0 +1,18 @@
+body{
+    padding: 10vw 20lvw;
+   
+}
+
+#container{
+    border: 2px solid black;
+    padding: 2vw 10vw 7vw;
+    text-align: center;
+}
+
+#clock{
+    padding: 4.5vw ;
+    background-color: black;
+    color: white;
+    font-size: 4vw;
+    font-weight: 800;
+}
