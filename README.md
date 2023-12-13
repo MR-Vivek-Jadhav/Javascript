@@ -1,3 +1,3 @@
 # Javascript
 
-Javascript Leacture From YouTube ..
+JAVASCRIPT PROJECT'S ...
