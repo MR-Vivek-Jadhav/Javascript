@@ -1,6 +1,7 @@
 1. BackGround Changer
 
-```
+```javascript
+
 " JavaScript Code "
 
 let red=document.getElementById('red')
@@ -56,7 +57,7 @@ yellow.addEventListener('click',function(e){
 
 2. BMI Genarator
 
-```
+```javascript
 
 " JavaScript Code "
 
@@ -97,3 +98,18 @@ form.addEventListener('submit',function(e){
 // console.log(form)
 
 ```
+
+3.Digital Clock
+
+```javascript
+
+" JavaScript Code "
+
+
+let clock=document.getElementById('clock')
+
+setInterval(function(){
+    let date=new Date()
+   clock.innerHTML=date.toLocaleTimeString()
+},1000)
+
