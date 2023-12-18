@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compair Two String</title>
+</head>
+<body>
+    
+    <script>
+
+             
+let studentName1="vivek"
+
+let studentName2="keviv"
+
+function sliptString(){
+
+let arr1=JSON.stringify(studentName1.split('').sort())
+
+let arr2=JSON.stringify(studentName2.split('').sort())
+
+// console.log(typeof arr1);?
+
+if (arr1===arr2){
+
+    console.log('same charater....');
+}else{
+    console.log('not having same charater....');
+}
+
+}
+
+sliptString()
+
+    </script>
+</body>
+</html>
