@@ -98,18 +98,3 @@ form.addEventListener('submit',function(e){
 // console.log(form)
 
 ```
-
-3.Digital Clock
-
-```javascript
-
-" JavaScript Code "
-
-
-let clock=document.getElementById('clock')
-
-setInterval(function(){
-    let date=new Date()
-   clock.innerHTML=date.toLocaleTimeString()
-},1000)
-
