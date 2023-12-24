@@ -30,12 +30,12 @@
 
 .toDoApp p{
     font-weight: 900;
-    font-size: 3.5vw;
+    font-size: 2vw;
     line-height: 9vw;
 }
 
  #Inputfeild{
-padding: 1.5vw 4.5vw;
+padding: 1vw 4vw;
 font-weight: 200;
 border: 2px solid black;
 border-radius: 2.5vw;
@@ -44,7 +44,7 @@ background-color: rgba(245, 245, 245, 0.936);
 }
 
 #btn{
-    padding: 1.5vw;
+    padding: 1vw 2vw;  
     width: 9vw;
     text-align: center;
     border: 2px solid black;
